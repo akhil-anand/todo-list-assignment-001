@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/todo-list-assignment-001">
         <AppBar position='absolute' color='dark'>
           <Toolbar sx={{ gap: 2}}>
             <Link style={{ color: 'white' }} to="/todo-list">To do List</Link> |
