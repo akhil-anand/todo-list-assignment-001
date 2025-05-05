@@ -12,7 +12,7 @@ const handleTodoCreation = () => {
   const todos = JSON.parse(localStorageData)
   const newTodo = { id: todos.length + 1, todo: todoTitle, completed: false, userId: 152 }
   localStorage.setItem('todo_list', JSON.stringify([newTodo, ...todos]))
-  navigate('./')
+  navigate('../')
   }
   
   return (
